@@ -1,12 +1,15 @@
 import Image from "next/image"; 
 import CopyToClipboard from "@/components/CopyToClipboard";
 
-
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
-    <>
+    <main className="exchange">
     <CopyToClipboard/>  
 
+        <Navbar/>
+          <section className="main">
       <div className="container">
         <h1 className="main_tittle translate" data-key="translate_5">Exchange your <span>crypto</span> <br/> to <span>XMR</span> safety</h1>
         <div className="main_rect">
@@ -136,6 +139,8 @@ export default function Home() {
         </div>
       </div>  
  
-    </>
+          </section>
+        <Footer/>
+    </main>
   );
 }
