@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
           <div className="header_item">
             <ul className="header_item_navs">
-              <li className="header_item_nav translate" data-key="translate_3"><Link href="/payment">Contacts</Link></li>
+              <li className="header_item_nav translate" data-key="translate_3"><Link href="/">Contacts</Link></li>
               <li className="header_item_nav translate" data-key="translate_4"><Link href="/">FAQ</Link></li>
             </ul>
             <p className="header_item_lang" >EN <Image width={24} height={24} src="/img/lang_en.svg" alt=""/></p>

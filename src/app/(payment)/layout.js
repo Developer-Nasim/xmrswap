@@ -9,14 +9,21 @@ export const metadata = {
   description: "Exchange your coins",
 };
 
-export default function PaymentLayout({ children }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en"> 
       <body className={`payment`}> 
-      {/* <body className={`payment`}>  */}
 
+          <Navbar />
+            <section className="main_payment">
                   {children}  
- 
+            </section>
+          <Footer /> 
+
+
+
+
+
 
 
           <Script src="/js/jquery-3.6.3.js" strategy="lazyOnload" />

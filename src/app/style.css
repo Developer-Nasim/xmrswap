@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -1303,8 +1304,8 @@ background: #111522;
 
 @media (min-width:1000px) and (max-width:1480px){
 body{
-  transform: scale(0.8); /* Устанавливаем масштаб 80% */
-  transform-origin: top center; /* Устанавливаем точку отсчета для трансформации */
+  /*transform: scale(0.8);  Устанавливаем масштаб 80% */
+  /*transform-origin: top center;  Устанавливаем точку отсчета для трансформации */
   margin: 0 auto; /* Центрируем содержимое */
   width: 100%; /* Увеличиваем ширину для компенсации масштаба */
 }
